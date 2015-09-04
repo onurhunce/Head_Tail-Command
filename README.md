@@ -1,8 +1,13 @@
 # Head_Tail-Command
-Head and Tails commands for terminal in Python. 
 
-HeadEx = It reads first ten lines in default, and n lines due to the user input. 
-Ex: python HeadEx.py test.txt -n 25
+This is an implementation for reading a file's head or tail with a given -n argument.
 
-TailEx = It reads last ten lines in default, and n lines due to the user input. 
-Ex: python TailEx.py test.txt -n 25
+<b> Usage </b>
+
+$ python Head.py testcase.txt -n  // <i> <b>  It reads first ten lines as default. </b>  </i>
+
+$ python Head.py testcase.txt -n 45  // <i> <b>  It reads first 45 lines in the file. </b>  </i>
+
+$ python Tail.py testcase.txt -n  // <i> <b>  It reads last ten lines as default. </b>  </i>
+
+$ python Tail.py testcase.txt -n 45  // <i> <b>  It reads last 45 lines in the file. </b>  </i>
